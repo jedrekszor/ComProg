@@ -1,5 +1,7 @@
+import static java.lang.StrictMath.sqrt;
+
 public class SudokuBoard {
-    private int[][] board;
+    public int[][] board;
 
     public void prefill(){
         //puts values to make actual sudoku
@@ -33,6 +35,5 @@ public class SudokuBoard {
             System.out.println();
             if (x % 3 == 2 && x != 8 ) System.out.println("- - - - - - - - - - -");
         }
-
     }
 }
