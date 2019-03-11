@@ -36,4 +36,19 @@ public class SudokuBoard {
             if (x % 3 == 2 && x != 8 ) System.out.println("- - - - - - - - - - -");
         }
     }
+
+    public boolean check(int arr[][], int num, int row, int column) {
+        for(int i=0; i<arr.length; i++) {
+            if((arr[row][i] == num && i != column) || (arr[i][column] == num && i != row)) return false;
+        }
+        int newRow = (row/3)*3;
+        int newColumn = (column/3)*3;
+
+        for(int i=0; i<3; i++) {
+            for(int j=0; j<3; j++) {
+                if((arr[newRow + i][newColumn + j] == num) && newRow+i != row && newColumn+j != column) return false;
+            }
+        }
+        return true;
+    }
 }
