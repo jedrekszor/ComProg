@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-class SudokuBoard {
+public class SudokuBoard {
 
     private int[][] board;
 

@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 public class SudokuBoardTest {
 
 
@@ -19,7 +20,7 @@ public class SudokuBoardTest {
 
     @org.junit.jupiter.api.Test
     void testIfTwoSubsequentCallOfFillBoardGeneratesDifferentDigitsLayout() {
-
+        //SudokuBoard sudoku = new SudokuBoard();
     }
 
 
