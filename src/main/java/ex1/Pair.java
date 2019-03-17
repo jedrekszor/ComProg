@@ -1,3 +1,5 @@
+package ex1;
+
 public class Pair {
     public int x;
     public int y;

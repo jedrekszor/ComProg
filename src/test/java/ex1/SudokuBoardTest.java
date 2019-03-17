@@ -20,7 +20,7 @@ public class SudokuBoardTest {
 
     @org.junit.jupiter.api.Test
     void testIfTwoSubsequentCallOfFillBoardGeneratesDifferentDigitsLayout() {
-        //SudokuBoard sudoku = new SudokuBoard();
+        SudokuBoard sudoku = new SudokuBoard();
     }
 
 

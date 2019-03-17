@@ -1,3 +1,5 @@
+package ex1;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -94,10 +96,10 @@ public class SudokuBoard {
 //
 //        if (!areThereZeros()) return true;
 //
-//        ArrayList<Pair> list = new ArrayList<Pair>(81);
+//        ArrayList<ex1.Pair> list = new ArrayList<ex1.Pair>(81);
 //        for (int x = 0; x < 9; x++) {
 //            for (int y = 0; y < 9; y++) {
-//                list.add(new Pair(x, y));
+//                list.add(new ex1.Pair(x, y));
 //            }
 //        }
 //
