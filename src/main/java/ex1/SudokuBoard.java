@@ -16,6 +16,10 @@ public class SudokuBoard {
         }
     }
 
+    public int[][] getBoard()
+    {
+        return board;
+    }
 
     void fillSudoku() {
         this.randomSolveSudoku();
