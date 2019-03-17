@@ -13,8 +13,18 @@ public class SudokuBoardTest {
     }
 
     @org.junit.jupiter.api.Test
-    void testGreetMethodWithNullValue() {
+    void testIfFillBoardGeneratesCorrectDigitsLayout() {
 
     }
 
+    @org.junit.jupiter.api.Test
+    void testIfTwoSubsequentCallOfFillBoardGeneratesDifferentDigitsLayout() {
+
+    }
+
+
+    /*
+    * fillBoard generates correct digits layout (check all rows, columns and boxes)
+two subsequent calls of fillBoard generates different digits layout on the board
+*/
 }

@@ -3,24 +3,26 @@ public class Main {
 
         SudokuBoard sudoku = new SudokuBoard();
 
-        sudoku.prefill();
+        sudoku.fillSudoku();
 
         System.out.println();
         System.out.println("Sudoku to solve:");
         System.out.println();
+
         sudoku.display();
 
         System.out.println();
         System.out.println("Now we are solving sudoku...");
         System.out.println();
 
-        if (sudoku.fillSudoku()){
+        sudoku.solveSudoku();
 
-            System.out.println();
-            System.out.println("Here is solved sudoku:");
-            System.out.println();
-            sudoku.display();
-        }
+        System.out.println();
+        System.out.println("Here is solved sudoku:");
+        System.out.println();
+
+        sudoku.display();
+
 
     }
 }
